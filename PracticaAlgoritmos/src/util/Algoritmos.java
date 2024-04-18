@@ -20,6 +20,12 @@ public abstract class Algoritmos {
 		}	
 	}
 	
+	/**
+	 * Metodo utilizado para obtener el numero factorial de un numero
+	 * 
+	 * @param numero
+	 * @return
+	 */
 	public static int factorial(int numero) {
 		
 		if(numero == 0 || numero == 1) {
@@ -34,6 +40,12 @@ public abstract class Algoritmos {
 		
 	}
 	
+	/**
+	 * Metodo utilizado para saber si un numero es primo o no, devolviendo true o false
+	 * 
+	 * @param numero
+	 * @return
+	 */
 	public static boolean esPrimo(int numero) {
 		if (numero <= 1){
 			return false;
